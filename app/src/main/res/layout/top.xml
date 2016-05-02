@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bottom_bar"
+    android:layout_height="45dp">
+
+    <!--   注释的快捷键是Ctrl+Shift+/ -->
+    <!--  layout_gravity是控件在父布局中的位置 -->
+    <!--   gravity是控件中的内容在控件中的位置-->
+    <TextView
+       android:layout_gravity="center"
+       android:gravity="left|center"
+        android:text="@string/weixin"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
